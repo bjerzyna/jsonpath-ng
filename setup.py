@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name='jsonpath-ng',
-    version='1.6.1',
+    version='1.7.0',
     description=(
         'A final implementation of JSONPath for Python that aims to be '
         'standard compliant, including arithmetic and binary comparison '
@@ -12,7 +12,7 @@ setuptools.setup(
     ),
     author='Tomas Aparicio',
     author_email='tomas@aparicio.me',
-    url='https://github.com/h2non/jsonpath-ng',
+    url='https://github.com/bjerzyna/jsonpath-ng',
     license='Apache 2.0',
     long_description=io.open('README.rst', encoding='utf-8').read(),
     packages=['jsonpath_ng', 'jsonpath_ng.bin', 'jsonpath_ng.ext'],
